@@ -227,4 +227,8 @@ document.addEventListener('click',e=>{const el=e.target.closest('[data-a]');if(!
 });
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('cc-sw.js').catch(()=>{}));
 start();
-</script></body></html>
+</script>
+<div id="chile-conecta-feed"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="cc-supabase.js"></script>
+</body></html>
