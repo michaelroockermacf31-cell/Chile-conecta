@@ -6,7 +6,8 @@
   'use strict';
 
   /* ---- CONFIGURACIÓN (ajusta aquí si tus columnas se llaman distinto) ---- */
-  const SUPABASE_URL = 'https://hpghighabbulds.supabase.co';
+  const SUPABASE_URL = 'https://hpghighabbuldsnnqkbn.supabase.co';
+   
   const SUPABASE_KEY = 'sb_publishable_QmPh1XPv2vPWBQPS_ml1cQ_PqOha-n5';
   const COL = {
     tabla: 'anuncios',
